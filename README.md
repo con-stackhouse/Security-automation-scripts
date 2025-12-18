@@ -172,7 +172,7 @@ Python security and digital forensics scripts developed during University of Ari
 - **Techniques:** Hash-based file identification, API integration, threat intelligence
 - **Use Case:** Malware detection, file reputation checking, incident response
 - **Skills:** API usage, hash algorithms, threat intelligence gathering
-```
+
 
 ---
 
