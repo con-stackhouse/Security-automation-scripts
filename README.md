@@ -68,18 +68,24 @@ Python security and digital forensics scripts developed during University of Ari
 - **Use Case:** Security monitoring, malware detection, log analysis
 - **Skills:** Log analysis, threat intelligence, pattern recognition
 
+#### 8. GPS EXIF Extractor
+**File:** `forensics/gps_exif_extractor.py`
+- **Purpose:** Extract GPS coordinates and metadata from JPEG images
+- **Techniques:** EXIF parsing, coordinate conversion, geolocation analysis
+- **Use Case:** Digital forensics, OSINT, tracking evidence locations
+- **Skills:** Image metadata extraction, GPS data processing, CSV export
 ---
 
 ### File Analysis
 
-#### 8. File Hash Analyzer
+#### 9. File Hash Analyzer
 **File:** `file-analysis/file_hash_analyzer.py`
 - **Purpose:** Generate forensic catalog of files with SHA-256 integrity hashes
 - **Techniques:** Recursive directory walking, cryptographic hashing, timeline analysis
 - **Use Case:** File integrity monitoring, baseline security audits, chain of custody
 - **Skills:** Cryptographic hashing, file system operations, forensic timelines
 
-#### 9. Image Scanner
+#### 10. Image Scanner
 **File:** `file-analysis/image_scanner.py`
 - **Purpose:** Detect and analyze digital images in directories
 - **Techniques:** Image format detection, metadata extraction using PIL
@@ -90,7 +96,7 @@ Python security and digital forensics scripts developed during University of Ari
 
 ### Network Security
 
-#### 10. Packet Sniffer
+#### 11. Packet Sniffer
 **File:** `network/packet_sniffer.py`
 - **Purpose:** Capture and analyze network traffic
 - **Techniques:** Raw socket programming, packet header parsing, protocol identification
@@ -98,14 +104,14 @@ Python security and digital forensics scripts developed during University of Ari
 - **Skills:** Socket programming, binary data structures, network protocols (TCP/UDP/ICMP)
 - **Note:** Requires administrator/root privileges
 
-#### 11. TCP Client
+#### 12. TCP Client
 **File:** `network/tcp_client.py`
 - **Purpose:** Client-side socket programming with message transmission
 - **Techniques:** TCP socket communication, hash verification
 - **Use Case:** Network protocol understanding, client-server architecture
 - **Skills:** Socket programming, network protocols
 
-#### 12. TCP Server
+#### 13. TCP Server
 **File:** `network/tcp_server.py`
 - **Purpose:** Server-side socket programming with MD5 response
 - **Techniques:** TCP socket listening, hash-based confirmation
@@ -116,7 +122,7 @@ Python security and digital forensics scripts developed during University of Ari
 
 ### Text Analysis
 
-#### 13. NLTK Corpus Analyzer
+#### 14. NLTK Corpus Analyzer
 **File:** `text-analysis/nltk_corpus_analyzer.py`
 - **Purpose:** Natural language processing for text corpus analysis
 - **Techniques:** NLTK, word frequency, concordance, vocabulary analysis
@@ -127,7 +133,7 @@ Python security and digital forensics scripts developed during University of Ari
 
 ### Web Security
 
-#### 14. Web Scraper & Reconnaissance Tool
+#### 15. Web Scraper & Reconnaissance Tool
 **File:** `web-security/web_scraper.py`
 - **Purpose:** Extract links and images from websites for security assessment
 - **Techniques:** BeautifulSoup parsing, HTTP requests, web crawling
@@ -138,7 +144,7 @@ Python security and digital forensics scripts developed during University of Ari
 
 ### Cryptography
 
-#### 15. Rainbow Table Generator
+#### 16. Rainbow Table Generator
 **File:** `cryptography/rainbow_table_generator.py`
 - **Purpose:** Educational demonstration of password cracking via precomputed hashes
 - **Techniques:** MD5 hashing, combinatorics, data serialization
@@ -146,6 +152,30 @@ Python security and digital forensics scripts developed during University of Ari
 - **Skills:** Cryptographic concepts, algorithm optimization, offensive security principles
 
 ---
+
+### Steganography
+
+#### 17. Image Steganography Tool
+**File:** `steganography/image_steganography.py`
+- **Purpose:** Embed covert messages in images using LSB steganography
+- **Techniques:** Least Significant Bit manipulation, binary encoding, pixel modification
+- **Use Case:** Covert communications, data hiding, digital watermarking
+- **Skills:** Bit manipulation, image processing, offensive security concepts
+
+---
+
+### Malware Analysis
+
+#### 18. VirusTotal Scanner
+**File:** `malware-analysis/virustotal_scanner.py`
+- **Purpose:** Automated malware scanning using VirusTotal API
+- **Techniques:** Hash-based file identification, API integration, threat intelligence
+- **Use Case:** Malware detection, file reputation checking, incident response
+- **Skills:** API usage, hash algorithms, threat intelligence gathering
+```
+
+---
+
 
 ## 🔧 Technologies & Libraries Used
 
@@ -158,6 +188,7 @@ Python security and digital forensics scripts developed during University of Ari
   - Requests (HTTP)
   - psutil (system information)
   - NLTK (natural language processing)
+  - virustotal-api (malware scanning)
 
 ## 📚 Security Concepts Demonstrated
 
@@ -172,6 +203,9 @@ Python security and digital forensics scripts developed during University of Ari
 - Web reconnaissance techniques
 - Chain of custody procedures
 - Natural language processing for security
+- Steganography and covert communications
+- Malware analysis and threat intelligence
+- API integration for security tools
 
 ## 🎓 Education
 
