@@ -1,14 +1,17 @@
+
+```markdown
 # Security Automation & Forensics Tools
 
-Python security and digital forensics scripts developed during University of Arizona Cyber Operations Engineering program (B.A.S., 4.0 GPA).
+Python security and digital forensics scripts developed during University of Arizona Cyber Operations Engineering program (B.A.S., 3.89 GPA).
 
 ## 🛡️ Security Domains Covered
 
 - **Digital Forensics** - Memory analysis, file system forensics, evidence collection
-- **Network Security** - Packet capture and analysis
+- **Network Security** - Packet capture and socket programming
 - **Cryptography** - Password security and hash cracking concepts
 - **Web Security** - Web scraping and reconnaissance
 - **File Analysis** - Integrity verification and metadata extraction
+- **Text Analysis** - Natural language processing and corpus analysis
 
 ---
 
@@ -119,10 +122,8 @@ Python security and digital forensics scripts developed during University of Ari
 - **Techniques:** NLTK, word frequency, concordance, vocabulary analysis
 - **Use Case:** Document analysis, keyword extraction, communication patterns
 - **Skills:** NLP, text mining, statistical analysis
-```
 
 ---
-
 
 ### Web Security
 
@@ -149,12 +150,14 @@ Python security and digital forensics scripts developed during University of Ari
 ## 🔧 Technologies & Libraries Used
 
 - **Python 3.x**
-- **Standard Libraries:** os, socket, struct, re, hashlib, pickle, time
+- **Standard Libraries:** os, socket, struct, re, hashlib, pickle, time, platform, uuid, logging
 - **Third-Party:**
   - PrettyTable (data presentation)
   - Pillow/PIL (image processing)
   - BeautifulSoup (web parsing)
   - Requests (HTTP)
+  - psutil (system information)
+  - NLTK (natural language processing)
 
 ## 📚 Security Concepts Demonstrated
 
@@ -162,11 +165,13 @@ Python security and digital forensics scripts developed during University of Ari
 - Memory analysis techniques
 - File integrity verification
 - Network packet analysis
+- Socket programming (client-server architecture)
 - Cryptographic hash functions
 - Regular expression pattern matching
 - Object-oriented security tool design
 - Web reconnaissance techniques
 - Chain of custody procedures
+- Natural language processing for security
 
 ## 🎓 Education
 
@@ -180,30 +185,31 @@ Graduation: December 2025
 - Network Security
 - Penetration Testing
 - Incident Response
+- Malware Analysis
 
 ## 🏆 Certifications
 
-- ARRT - Radiologic Technology (R) 
+- ARRT - Radiologic Technology (R)
 - ARRT - Computed Tomography (CT)
 
 
 ## 💼 Professional Experience
 
-- Medical Device Security Analyst - HonorHealth (December 2025-Present)
-- Medical device vulnerability management
-- ORDR platform security monitoring
+**Medical Device Security Analyst (Mitigation Specialist)** - HonorHealth (December 2025-Present)
+- Medical device vulnerability management using ORDR platform
 - ServiceNow security workflow automation
 - Healthcare compliance and risk assessment
+- Coordination with clinical teams for security patch deployment
 
-**CT Technologist** - HonorHealth (2022-2025)
+**CT Technologist** - HonorHealth (July 2022-December 2025)
 - HIPAA-compliant medical systems management
 - RIS/PACS security and access control
 - Healthcare IT infrastructure operations
+- User access management and security coordination
 
 ## 🔗 Additional Projects
 
 - Web Application Security Assessment (OWASP ZAP) - Penetration testing project
-
 
 ## ⚠️ Legal Disclaimer
 
@@ -213,24 +219,14 @@ These scripts are for educational and authorized security testing purposes only.
 
 - LinkedIn: https://www.linkedin.com/in/connor-stackhouse-91570986/
 - Email: con.stackhouse@gmail.com
-- GitHub: con-stackhouse
+- GitHub: https://github.com/con-stackhouse
 
 ---
 
 *Building secure systems through education and hands-on experience.*
 ```
 
----
 
-## Requirements.txt File:
 
-```
-prettytable>=3.0.0
-Pillow>=9.0.0
-beautifulsoup4>=4.11.0
-requests>=2.28.0
-psutil>=5.9.0
-nltk>=3.8.0
-```
 
----
+
